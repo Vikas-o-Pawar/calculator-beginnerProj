@@ -1,0 +1,12 @@
+.calcButtonBasic {
+   border: none;
+
+}
+
+.calcButtonBasic:hover {
+    border: 0.8px solid gray;
+}
+
+.calcButtonBasic:active {
+    border: 1px solid black;
+}

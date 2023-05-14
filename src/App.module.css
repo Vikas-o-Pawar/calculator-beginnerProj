@@ -1,0 +1,26 @@
+.mainCalSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.cardMain{
+    height: 310px;
+    width: 300px;
+    border: 0.5px solid gray;
+}
+
+.btnSectionMain {
+    /* border: 2px solid red; */
+    margin: 6px 6px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.extraClassBtn {
+    /* Here we add the extra styling. For example if the button is '=' button, then we want that button to be a bit big.  */
+    padding: 18px;
+}
